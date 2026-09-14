@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import React, { useMemo, useState } from "react";
 import { events, categories } from "./data/events";
 
 function App() {
@@ -41,7 +41,11 @@ function App() {
       <header className="navbar">
         <div className="container nav-content">
           <button className="brand" onClick={() => navigate("home")}>
-            <span className="brand-mark">PNC</span>
+            <img
+              src="Logo.png"
+              alt="Passerelles Numériques Cambodia Logo"
+              ClassName="brand-logo"
+              />
             <span>Student Event Portal</span>
           </button>
 
@@ -71,7 +75,7 @@ function App() {
                 </div>
                 <div className="hero-card">
                   <div className="hero-icon">📅</div>
-                  <h3>Upcoming Events</h3>
+                  <h3>PNC Upcoming Events</h3>
                   <strong>{events.length} events available</strong>
                   <p>Build skills and connect with the PNC community.</p>
                 </div>

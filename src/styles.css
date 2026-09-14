@@ -33,6 +33,11 @@ button { cursor: pointer; }
   background: #d82f3f; color: white; padding: 6px 9px; border-radius: 7px;
   font-size: .85rem; letter-spacing: .5px;
 }
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
 
 nav { display: flex; gap: 8px; }
 nav button { border: 0; background: transparent; padding: 9px 13px; color: #657080; border-radius: 6px; }
