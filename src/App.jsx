@@ -42,9 +42,9 @@ function App() {
         <div className="container nav-content">
           <button className="brand" onClick={() => navigate("home")}>
             <img
-              src="Logo.png"
+              src="/Logo.png"
               alt="Passerelles Numériques Cambodia Logo"
-              ClassName="brand-logo"
+              className="brand-logo"
               />
             <span>Student Event Portal</span>
           </button>
@@ -201,7 +201,7 @@ function App() {
       <footer>
         <div className="container">
           <strong>PNC Student Event Portal</strong>
-          <span>Sample project for Modern Deployment learning</span>
+          <span>SNAC Modern Deployment – Practice Project</span>
         </div>
       </footer>
     </div>
